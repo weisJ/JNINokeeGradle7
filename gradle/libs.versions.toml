@@ -1,0 +1,9 @@
+[versions]
+macOSFramework = "latest.release"
+
+[libraries]
+nullabilityAnnotations = { module = "org.jetbrains:annotations", version = "16.0.2" }
+macos-javaVM-base = { module = "dev.nokee.framework:JavaVM", version.ref = "macOSFramework" }
+macos-javaVM-capability-javaNativeFoundation = { module = "JavaVM:JavaNativeFoundation", version.ref = "macOSFramework" }
+macos-appKit = { module = "dev.nokee.framework:AppKit", version.ref = "macOSFramework" }
+macos-cocoa = { module = "dev.nokee.framework:Cocoa", version.ref = "macOSFramework" }
